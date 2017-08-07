@@ -8,7 +8,7 @@ const morgan = require('morgan');
 const cors = require('cors');
 
 const authRouter = require('./route/auth-router.js');
-const errors = require('.lib/error-middleware.js');
+const errors = require('./lib/error-middleware.js');
 
 dotenv.load();
 
